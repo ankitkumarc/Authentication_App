@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* 
+body {
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+} */
+
+.form {
+  width: 250px;
+  height: 340px;
+  color: rgb(159, 152, 248);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translation(-50%, -50%);
+  border-radius: 10px;
+  border: 2px solid red;
+  padding: 40px 25px;
+}
+
+.form h2 {
+  width: 220px;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  background: hsl(85, 84%, 7%);
+  color: rgb(84, 243, 224);
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 15px 15px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.form input {
+  width: 95%;
+  height: 30px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  background: transparent;
+  border: 2px solid green;
+  border-radius: 7px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  text-align: centre;
+  margin: 10px;
+  padding: 10px;
+  color: black;
+}
+
+.btnn {
+  font-size: 20px;
+  padding: 10px 15px;
+  background: none;
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  margin-top: 10px;
+  /* margin-left: 80px; */
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.form .link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+  text-align: center;
+}
+table,
+td {
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+  border: 2px solid rgb(44, 147, 250);
+  background-color: rgb(211, 163, 255);
+  border-radius: 2px;
+}
+tr {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px dotted blue;
+}
+
+.box {
+  line-height: 200px;
+  height: 200px;
+  border: 3px solid green;
+}
+.liw {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  border: 3px solid red;
+  color: white;
+  background-color: red;
+  border-radius: 7px;
+}
+
+.icons a {
+  text-decoration: none;
+  color: red;
+}
+
+.icons ion-icon {
+  color: white;
+  font-size: 32px;
+  padding: 7px;
+  padding-top: 5px;
+}
+
+.navbar {
+  padding: 15px;
+  margin: 20px;
+}
+
+.navbar p {
+  padding: 10px;
+}
+
+.navbar button {
+  position: right;
+}
